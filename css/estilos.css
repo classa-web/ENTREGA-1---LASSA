@@ -1,0 +1,87 @@
+/* Selector universal */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Selector de elemento + herencia */
+
+body {
+    background-color: #e6e2da;
+    color: #222222;
+}
+
+
+/* Selector de ID */
+
+#cabecera-evento {
+    background-color: #222222;
+    color: #e6e2da;
+    text-align: center;
+    padding: 30px;
+}
+
+
+/* Selector de clase */
+
+.presentacion {
+    color: #c34b27;
+    margin: 10px;
+}
+
+
+/* Selector descendiente */
+
+main section {
+    background-color: #d5d1c9;
+    padding: 25px;
+    margin: 15px;
+}
+
+
+/* Combinador de hijo directo */
+
+section > h2 {
+    color: #222222;
+    margin: 10px;
+}
+
+
+/* Combinador de hermano adyacente */
+
+h2 + p {
+    color: #555555;
+}
+
+
+/* Combinador de hermanos generales */
+
+h3 ~ ul {
+    background-color: #e6e2da;
+    padding: 20px;
+}
+
+
+/* Otra clase */
+
+.dato-evento {
+    width: 250px;
+    height: 100px;
+    background-color: #222222;
+    color: #e6e2da;
+    padding: 15px;
+    margin: 10px;
+}
+
+
+/* Pie de página */
+
+footer {
+    text-align: center;
+    background-color: #222222;
+    color: #e6e2da;
+    padding: 20px;
+}
